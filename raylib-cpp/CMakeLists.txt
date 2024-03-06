@@ -15,6 +15,7 @@ add_subdirectory(libs/raylib)
 add_executable(${PROJECT_NAME} 
 src/main.cpp
 src/entity.cpp
+src/player.cpp
 )
 target_link_libraries(${PROJECT_NAME} PRIVATE raylib)
 file(

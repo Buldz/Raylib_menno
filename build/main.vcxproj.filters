@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\raylib-cpp\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\raylib-cpp\src\entity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\raylib-cpp\src\player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\menno\Documents\GitHub\Raylib_menno\raylib-cpp\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B63669DD-4DDD-3DD2-9891-52798335A773}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
