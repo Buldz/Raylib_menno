@@ -4,10 +4,22 @@
     <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\raylib-cpp\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\raylib-cpp\src\core.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\raylib-cpp\src\entity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\raylib-cpp\src\scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\raylib-cpp\src\scene1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\raylib-cpp\src\player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\raylib-cpp\src\enemy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

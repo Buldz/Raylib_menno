@@ -1,4 +1,5 @@
 // entity.h
+
 #include "config.h"
 #include "raylib.h"
 
@@ -15,7 +16,7 @@ public:
 
 private:
 	/* add your private declarations */
-	static float deltaTime;
+	float deltaTime;
 };
 
 #endif /* ENTITY_H */

@@ -3,11 +3,11 @@
 #include "player.h"
 #include "config.h"
 
-
 Player::Player() : Entity()
 {
     position = {Config::SWIDTH/2, Config::SHEIGHT/2};
-    playerSpeed = 50;
+    playerSize = 50;
+    playerSpeed = playerSize;
 }
 
 Player::~Player()
@@ -17,7 +17,7 @@ Player::~Player()
 
 void Player::update(float deltatime)
 {
-    DrawRectangle((int)position.x -25, (int)position.y -25, 50, 50, BLUE);
+    DrawRectangle((int)position.x -playerSize/2, (int)position.y -playerSize/2, playerSize, playerSize, BLUE);
 
     if (IsKeyPressed(KEY_W) || IsKeyPressed(KEY_UP))
         {

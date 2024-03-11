@@ -14,8 +14,12 @@ add_subdirectory(libs/raylib)
 
 add_executable(${PROJECT_NAME} 
 src/main.cpp
+src/core.cpp
 src/entity.cpp
+src/scene.cpp
+src/scene1.cpp
 src/player.cpp
+src/enemy.cpp
 )
 target_link_libraries(${PROJECT_NAME} PRIVATE raylib)
 file(

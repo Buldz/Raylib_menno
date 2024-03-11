@@ -314,8 +314,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\raylib-cpp\src\main.cpp" />
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\raylib-cpp\src\core.cpp" />
     <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\raylib-cpp\src\entity.cpp" />
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\raylib-cpp\src\scene.cpp" />
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\raylib-cpp\src\scene1.cpp" />
     <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\raylib-cpp\src\player.cpp" />
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\raylib-cpp\src\enemy.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\ZERO_CHECK.vcxproj">

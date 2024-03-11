@@ -1,3 +1,5 @@
+// player.h
+
 #include <iostream>
 #include "entity.h"
 #include "config.h"
@@ -12,9 +14,11 @@ public:
     virtual ~Player();
     virtual void update(float deltaTime);
 
-    int playerSpeed;
-
 private:
-static float deltaTime;
+    float deltaTime;
+
+    //Variables
+    int playerSpeed;
+    int playerSize;
 };
 #endif /* PLAYER_H */

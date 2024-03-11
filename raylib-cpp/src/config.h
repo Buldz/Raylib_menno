@@ -5,7 +5,7 @@
 #define CONFIG_H
 
 #define screen_width 800
-#define screen_height 600
+#define screen_height 800
 #define fullscreen 0
 #define vsync 0
 #define msaa 0

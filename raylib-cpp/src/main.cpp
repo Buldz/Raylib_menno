@@ -1,34 +1,19 @@
-#include "config.h"
-#include "raylib.h"
-#include "player.h"
+// main.cpp
+
+#include "core.h"
+#include "scene1.h"
 
 int main()
 {
-    Camera2D camera = {0};
-    camera.offset = Vector2{Config::SWIDTH / 2.0f, Config::SHEIGHT / 2.0f};
-    camera.rotation = 0.0f;
-    camera.zoom = 1.0f;
-    Player *player = new Player();
+    Core* core = new Core();
+    Scene1* scene1 = new Scene1();
 
-    InitWindow(Config::SWIDTH, Config::SHEIGHT, "HELL PORTAL");
-    Config::configure();
-
-    while (!WindowShouldClose())
+    while (scene1->isActive())
     {
-        float deltaTime = GetFrameTime();
-        camera.target = Vector2{player->position.x, player->position.y};
-
-        BeginDrawing();
-                BeginMode2D(camera);
-        ClearBackground(BLACK);
-        DrawFPS(5, 5);
-
-
-        player->update(deltaTime);
-        
-        EndMode2D();
-        EndDrawing();
+        core->Run(scene1);
     }
-    CloseWindow();
+    
+    delete scene1;
+    
     return 0;
 }
