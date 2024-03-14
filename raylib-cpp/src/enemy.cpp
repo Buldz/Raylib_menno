@@ -6,6 +6,7 @@
 Enemy::Enemy() : Entity()
 {
     position = {Config::SWIDTH/2, Config::SHEIGHT/2};
+    enemySpeed = 3.0f;
 }
 
 Enemy::~Enemy()
@@ -15,5 +16,11 @@ Enemy::~Enemy()
 
 void Enemy::update(float deltatime)
 {
-    DrawRectangle( -50-25, 100-25, 50, 50, RED);
+    DrawRectangle((int)position.x, (int)position.y, 50, 50, RED);
+    Move();
+}
+
+void Enemy::Move()
+{
+    position.x += enemySpeed;
 }

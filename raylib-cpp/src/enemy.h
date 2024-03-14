@@ -15,6 +15,11 @@ public:
     virtual void update(float deltaTime);
 
 private:
+void Move();
+
+//Variables
 float deltaTime;
+float enemySpeed;
+
 };
 #endif /* ENEMY_H */

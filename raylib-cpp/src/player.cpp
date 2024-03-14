@@ -8,6 +8,8 @@ Player::Player() : Entity()
     position = {Config::SWIDTH/2, Config::SHEIGHT/2};
     playerSize = 50;
     playerSpeed = playerSize;
+
+    playerIsAlive = true;
 }
 
 Player::~Player()
@@ -17,8 +19,13 @@ Player::~Player()
 
 void Player::update(float deltatime)
 {
-    DrawRectangle((int)position.x -playerSize/2, (int)position.y -playerSize/2, playerSize, playerSize, BLUE);
+    DrawRectangle((int)position.x, (int)position.y, playerSize, playerSize, BLUE);
+    Move();
+    IsPlayerDead();
+}
 
+void Player::Move()
+{
     if (IsKeyPressed(KEY_W) || IsKeyPressed(KEY_UP))
         {
             position.y += -playerSpeed;
@@ -35,4 +42,12 @@ void Player::update(float deltatime)
         {
             position.x += -playerSpeed;
         }
+}
+
+void Player::IsPlayerDead()
+{
+    if (playerIsAlive == false)
+    {
+        delete this;
+    }
 }

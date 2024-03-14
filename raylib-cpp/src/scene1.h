@@ -19,13 +19,16 @@ public:
 	//Update method
 	virtual void update(float deltaTime);
 
+	std::vector<Enemy *> enemys;
+
 private:
 	/* add your private declarations */
 	float deltaTime;
 
 	//Pointers
 	Player* player;
-	Enemy* enemy;
+	Enemy* enemy1;
+	Enemy* enemy2;
 
 	//Variables
 	

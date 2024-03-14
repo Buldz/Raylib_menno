@@ -14,11 +14,17 @@ public:
     virtual ~Player();
     virtual void update(float deltaTime);
 
+    bool playerIsAlive;
+
 private:
-    float deltaTime;
+    //Functions
+    void Move();
+    void IsPlayerDead();
 
     //Variables
+    float deltaTime;
     int playerSpeed;
     int playerSize;
+    bool alive;
 };
 #endif /* PLAYER_H */

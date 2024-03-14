@@ -5,7 +5,7 @@
 Scene1::Scene1() : Scene()
 {
     // Camera Settings
-    camera.offset = Vector2{Config::SWIDTH / 2.0f, Config::SHEIGHT / 2.0f};
+    camera.offset = Vector2{0, Config::SHEIGHT / 2.0f};
     camera.rotation = 0.0f;
     camera.zoom = 1.0f;
 
@@ -13,24 +13,46 @@ Scene1::Scene1() : Scene()
     player = new Player();
 
     // New Enemy
-    enemy = new Enemy();
-    
+    enemy1 = new Enemy();
+    enemy1->position = {0, 150};
+    enemys.push_back(enemy1);
+
+    //New Enemy
+    enemy2 = new Enemy();
+    enemy2->position = {-80, -50};
+    enemys.push_back(enemy2);
+
     Config::configure();
 }
 
 Scene1::~Scene1()
 {
     delete player;
-    delete enemy;
+    delete enemy1;
+    delete enemy2;
 }
 
 void Scene1::update(float deltatime)
 {
-    camera.target = Vector2{player->position.x, player->position.y};
+    if (player == nullptr) {return;}
+
+   camera.target = Vector2{0.0f, player->position.y};
 
     //Draws enemy
-    enemy->update(deltaTime);
+    enemy1->update(deltaTime);
+    enemy2->update(deltaTime);
 
     // Draws Player
     player->update(deltaTime);
+
+    for (Enemy * enemy : enemys)
+    {
+        if (CheckCollisionRecs({player->position.x, player->position.y, 50, 50}, {enemy->position.x, enemy->position.y, 50, 50}))
+        {
+            player->playerIsAlive = false;
+            player = nullptr;
+        
+            std::cout << "big booty banana" << std::endl;
+        }
+    }
 }

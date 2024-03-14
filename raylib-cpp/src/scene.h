@@ -1,6 +1,8 @@
 // scene.h
 
 #include "entity.h"
+#include "config.h"
+#include <vector>
 
 #ifndef SCENE_H
 #define SCENE_H
