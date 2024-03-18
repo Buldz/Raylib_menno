@@ -19,7 +19,7 @@ public:
 	//Update method
 	virtual void update(float deltaTime) = 0;
 
-	void tick(float deltaTime); 
+	void Tick(float deltaTime); 
 
 	bool isActive() { return !WindowShouldClose(); };
 

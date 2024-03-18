@@ -24,7 +24,6 @@ private:
     //Variables
     float deltaTime;
     int playerSpeed;
-    int playerSize;
     bool alive;
 };
 #endif /* PLAYER_H */

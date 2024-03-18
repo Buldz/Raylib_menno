@@ -14,6 +14,7 @@ int main()
     }
     
     delete scene1;
+    delete core;
     
     return 0;
 }

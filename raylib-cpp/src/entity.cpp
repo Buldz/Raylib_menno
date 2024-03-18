@@ -5,6 +5,7 @@
 Entity::Entity()
 {
     position = {0, 0};
+    size = {1, 1};
 }
 
 Entity::~Entity()

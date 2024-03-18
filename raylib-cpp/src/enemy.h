@@ -13,6 +13,7 @@ public:
     Enemy();
     virtual ~Enemy();
     virtual void update(float deltaTime);
+    void RandomSpawn();
 
 private:
 void Move();

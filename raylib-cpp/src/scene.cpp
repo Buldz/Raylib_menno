@@ -12,8 +12,7 @@ Scene::~Scene()
     CloseWindow();
 }
 
-
-void Scene::tick(float deltaTime)
+void Scene::Tick(float deltaTime)
 {
     BeginDrawing();
     ClearBackground(BLACK);

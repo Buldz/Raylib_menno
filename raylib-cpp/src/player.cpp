@@ -6,8 +6,8 @@
 Player::Player() : Entity()
 {
     position = {Config::SWIDTH/2, Config::SHEIGHT/2};
-    playerSize = 50;
-    playerSpeed = playerSize;
+    size = {50, 50};
+    playerSpeed = size.y;
 
     playerIsAlive = true;
 }
@@ -19,7 +19,7 @@ Player::~Player()
 
 void Player::update(float deltatime)
 {
-    DrawRectangle((int)position.x, (int)position.y, playerSize, playerSize, BLUE);
+    DrawRectangle((int)position.x, (int)position.y, (int)size.x, (int)size.y, BLUE);
     Move();
     IsPlayerDead();
 }

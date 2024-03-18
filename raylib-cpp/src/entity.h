@@ -12,6 +12,7 @@ public:
 	virtual ~Entity();
 
 	Vector2 position;
+	Vector2 size;
 
 private:
 	/* add your private declarations */
