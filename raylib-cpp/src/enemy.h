@@ -3,6 +3,7 @@
 #include <iostream>
 #include "entity.h"
 #include "config.h"
+#include "time.h"
 
 #ifndef ENEMY_H
 #define ENEMY_H
@@ -21,6 +22,8 @@ void Move();
 //Variables
 float deltaTime;
 float enemySpeed;
+
+bool goesLeft;
 
 };
 #endif /* ENEMY_H */

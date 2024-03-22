@@ -5,6 +5,8 @@
 Scene::Scene() : Entity()
 {
     InitWindow(Config::SWIDTH, Config::SHEIGHT, "HELL PORTAL");
+
+    timer = new Timer;
 }
 
 Scene::~Scene()

@@ -22,6 +22,9 @@
     <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\raylib-cpp\src\enemy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\raylib-cpp\src\timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\menno\Documents\GitHub\Raylib_menno\raylib-cpp\CMakeLists.txt" />

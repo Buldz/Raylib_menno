@@ -1,6 +1,7 @@
 // entity.h
 
 #include "raylib.h"
+#include "timer.h"
 
 #ifndef ENTITY_H
 #define ENTITY_H

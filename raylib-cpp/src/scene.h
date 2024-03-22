@@ -3,6 +3,7 @@
 #include "entity.h"
 #include "config.h"
 #include <vector>
+#include "timer.h"
 
 #ifndef SCENE_H
 #define SCENE_H
@@ -26,10 +27,12 @@ public:
 	//Creates camera
 	Camera2D camera = {0};
 
+	//Pointers
+	Timer* timer;
+
 private:
 	/* add your private declarations */
 	float deltaTime;
-
 };
 
 #endif /* SCENE_H */

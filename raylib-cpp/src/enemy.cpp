@@ -1,13 +1,17 @@
 // enemy.cpp
 
 #include "enemy.h"
-#include "config.h"
+
+// Enemy.cpp
 
 Enemy::Enemy() : Entity()
 {
-    position = {Config::SWIDTH/2, Config::SHEIGHT/2};
     size = {50, 50};
-    enemySpeed = 3.0f;
+    enemySpeed = 3.0f;  
+    
+    //Resets seed
+    srand ((int)time(NULL)); 
+   //std::cout << time(NULL) << std::endl;
 
     RandomSpawn();
 }
@@ -25,20 +29,36 @@ void Enemy::update(float deltatime)
 
 void Enemy::Move()
 {
-    if(this->position.x < Config::SWIDTH){ position.x += enemySpeed;}
-
-    if(this->position.x > Config::SWIDTH){position.x -= enemySpeed;}
+    //Enemy goes left or right
+    if (this->goesLeft == true) 
+    {
+        this->position.x -= enemySpeed;
+    } 
+    else 
+    {
+        this->position.x += enemySpeed;
+    }
 }
 
 void Enemy::RandomSpawn()
 {
-    switch (rand() % 1)
+    //Chooses if enemy goes left or right
+    if (rand() % 2 == 1) 
     {
-        case 0:
-            this->position = {-50, 50};
-            break;
-        case 1:
-            this->position = {Config::SWIDTH + 50, 100};
-            break;
+      goesLeft = false;
+    } 
+    else 
+    {
+      goesLeft = true;
+    }
+    
+    //Changes spawnpoint of enemy if going left or right
+    if (this->goesLeft == true) 
+    {
+        this->position = {850, 150};
+    } 
+    else 
+    {
+        this->position = {-50, 100};
     }
 }

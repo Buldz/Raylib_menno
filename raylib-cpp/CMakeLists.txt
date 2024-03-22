@@ -20,6 +20,7 @@ src/scene.cpp
 src/scene1.cpp
 src/player.cpp
 src/enemy.cpp
+src/timer.cpp
 )
 target_link_libraries(${PROJECT_NAME} PRIVATE raylib)
 file(

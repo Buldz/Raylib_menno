@@ -23,15 +23,17 @@ public:
 
 private:
 	/* add your private declarations */
-	float deltaTime;
-
 	//Pointers
 	Player* player;
 	Enemy* enemy1;
-	Enemy* enemy2;
+	//Enemy* enemy2;
 
 	//Variables
-	
+	float deltaTime;
+	double spawnRate;
+
+	//Functions
+	void SpawnManager();
 };
 
 #endif /* SCENE1_H */
