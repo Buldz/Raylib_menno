@@ -26,6 +26,7 @@ private:
     //Methods
     void Move();
     void IsPlayerDead();
+    void PlayerBorder();
 
     //Variables
     float _deltaTime;

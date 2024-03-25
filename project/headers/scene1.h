@@ -32,6 +32,7 @@ private:
 
 	//Methods
 	void SpawnManager();
+	void DeleteEnemy();
 };
 
 #endif /* SCENE1_H */

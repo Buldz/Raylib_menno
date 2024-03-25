@@ -23,6 +23,8 @@ public:
     //Methods
     void RandomSpawn();
 
+    bool EnemyIsAlive() { return _alive; }
+    
 private:
     //Methods
     void Move();
@@ -31,5 +33,6 @@ private:
     float _deltaTime;
     float _enemySpeed;
     bool _goesLeft;
+    bool _alive;
 };
 #endif /* ENEMY_H */

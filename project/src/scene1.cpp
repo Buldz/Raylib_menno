@@ -22,16 +22,27 @@ Scene1::Scene1() : Scene()
 Scene1::~Scene1()
 {
     delete player;
+
+    //Deletes all enemys in list
+    for (int j = enemys.size() - 1; j >= 0; j--)
+	{
+		delete enemys[j];				  // delete from the heap first
+		enemys.erase(enemys.begin() + j); // then, remove from the list
+	}
 }
 
 void Scene1::update(float deltatime)
 {
-    if (player == nullptr) {return;}
+    if (player == nullptr) 
+    {
+        return;
+    }
 
     // Updates Camera target to player location
     camera.target = Vector2{0.0f, player->position.y};
 
     SpawnManager();
+    DeleteEnemy();
 
     // Draws Player
     player->update(_deltaTime);
@@ -66,5 +77,17 @@ void Scene1::SpawnManager()
 		Enemy *enemy;
 		enemy = new Enemy();
 		enemys.push_back(enemy);
+	}
+}
+
+void Scene1::DeleteEnemy()
+{
+    for (int j = enemys.size() - 1; j >= 0; j--)
+	{
+		if (!enemys[j]->EnemyIsAlive())
+		{
+			delete enemys[j];				  // delete from the heap first
+			enemys.erase(enemys.begin() + j); // then, remove from the list
+		}
 	}
 }
