@@ -31,7 +31,7 @@ public:
 	Timer* timer;
 
 private:
-	/* add your private declarations */
+	// Variables
 	float deltaTime;
 };
 
