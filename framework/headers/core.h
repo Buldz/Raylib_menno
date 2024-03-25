@@ -9,13 +9,18 @@
 class Core
 {
 public:
+	//Constructor
 	Core();
+
+	//Deconstructor
 	virtual ~Core();
+
+	//Methods
 	void Run(Scene* scene);
 
 private:
-	/* add your private declarations */
-	float deltaTime;
+	//Variables
+	float _deltaTime;
 };
 
 #endif /* CORE_H */

@@ -10,13 +10,12 @@ Scene1::Scene1() : Scene()
     camera.zoom = 1.0f;
 
     // SpawnManager
-    spawnRate = 0.5;
+    _spawnRate = 0.5;
 
     // New Player
     player = new Player();
 
-    Config::configure();
-
+    //Starts timer
     timer->start();
 }
 
@@ -35,8 +34,8 @@ void Scene1::update(float deltatime)
     SpawnManager();
 
     // Draws Player
-    player->update(deltaTime);
-
+    player->update(_deltaTime);
+    
     for (Enemy* enemy : enemys)
     {
         if (player == nullptr || enemy == nullptr) 
@@ -45,14 +44,14 @@ void Scene1::update(float deltatime)
         }
 
         // Draws enemy || Updates enemy
-        enemy->update(deltaTime);    
+        enemy->update(_deltaTime);    
 
        // Check if player is colliding with enemys
-        if (CheckCollisionRecs({player->position.x, player->position.y, 50, 50}, {enemy->position.x, enemy->position.y, 50, 50}))
+        if (CheckCollisionRecs({player->position.x, player->position.y, player->size.x, player->size.y}, {enemy->position.x, enemy->position.y, enemy->size.x, enemy->size.y}))
         {
             player->playerIsAlive = false;
             player = nullptr;
-        
+
             std::cout << "Player dead" << std::endl;
         }
     }
@@ -60,7 +59,7 @@ void Scene1::update(float deltatime)
 
 void Scene1::SpawnManager()
 {
-	if (timer->getSeconds() >= spawnRate)
+	if (timer->getSeconds() >= _spawnRate)
 	{
 		timer->restart();
 

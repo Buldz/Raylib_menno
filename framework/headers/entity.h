@@ -9,15 +9,19 @@
 class Entity
 {
 public:
+	//Constructor
 	Entity();
+
+	//Deconstructor
 	virtual ~Entity();
 
+	//Variables
 	Vector2 position;
 	Vector2 size;
 
 private:
-	/* add your private declarations */
-	float deltaTime;
+	//Variables
+	float _deltaTime;
 };
 
 #endif /* ENTITY_H */

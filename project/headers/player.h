@@ -10,20 +10,26 @@
 class Player : public Entity
 {
 public:
+    //Constructor
     Player();
+
+    //Deconstructor
     virtual ~Player();
+
+    //Update method
     virtual void update(float deltaTime);
 
+    //Variables
     bool playerIsAlive;
 
 private:
-    //Functions
+    //Methods
     void Move();
     void IsPlayerDead();
 
     //Variables
-    float deltaTime;
-    int playerSpeed;
-    bool alive;
+    float _deltaTime;
+    int _playerSpeed;
+    bool _alive;
 };
 #endif /* PLAYER_H */

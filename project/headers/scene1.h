@@ -27,10 +27,10 @@ private:
 	Player* player;
 
 	//Variables
-	float deltaTime;
-	double spawnRate;
+	float _deltaTime;
+	double _spawnRate;
 
-	//Functions
+	//Methods
 	void SpawnManager();
 };
 

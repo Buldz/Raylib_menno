@@ -14,6 +14,6 @@ Core::~Core()
 
 void Core::Run(Scene* scene)
 {
-    deltaTime = GetFrameTime();
-    scene->Tick(deltaTime);
+    _deltaTime = GetFrameTime();
+    scene->Tick(_deltaTime);
 }

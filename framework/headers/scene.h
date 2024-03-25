@@ -20,8 +20,8 @@ public:
 	//Update method
 	virtual void update(float deltaTime) = 0;
 
+	//Methods
 	void Tick(float deltaTime); 
-
 	bool isActive() { return !WindowShouldClose(); };
 
 	//Creates camera
@@ -32,7 +32,7 @@ public:
 
 private:
 	// Variables
-	float deltaTime;
+	float _deltaTime;
 };
 
 #endif /* SCENE_H */

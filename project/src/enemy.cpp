@@ -6,8 +6,8 @@
 
 Enemy::Enemy() : Entity()
 {
-    size = {50, 50};
-    enemySpeed = 3.0f;  
+    size = {50, 25};
+    _enemySpeed = 3.0f;  
     
     //Resets seed
     srand ((int)time(NULL)); 
@@ -30,13 +30,13 @@ void Enemy::update(float deltatime)
 void Enemy::Move()
 {
     //Enemy goes left or right
-    if (this->goesLeft == true) 
+    if (_goesLeft == true) 
     {
-        this->position.x -= enemySpeed;
+        this->position.x -= _enemySpeed;
     } 
     else 
     {
-        this->position.x += enemySpeed;
+        this->position.x += _enemySpeed;
     }
 }
 
@@ -45,15 +45,15 @@ void Enemy::RandomSpawn()
     //Chooses if enemy goes left or right
     if (rand() % 2 == 1) 
     {
-      goesLeft = false;
+      _goesLeft = false;
     } 
     else 
     {
-      goesLeft = true;
+      _goesLeft = true;
     }
     
     //Changes spawnpoint of enemy if going left or right
-    if (this->goesLeft == true) 
+    if (_goesLeft == true) 
     {
         this->position = {850, 150};
     } 
