@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/menno/Documents/GitHub/Raylib_menno/raylib-cpp/libs/raylib/src
+# Install script for directory: C:/Users/exa/Development/Raylib_menno/libs/raylib/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/main")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files/main")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,39 +34,39 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/menno/Documents/GitHub/Raylib_menno/build/libs/raylib/raylib/Debug/raylib.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/exa/Development/Raylib_menno/build/libs/raylib/raylib/Debug/raylib.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/menno/Documents/GitHub/Raylib_menno/build/libs/raylib/raylib/Release/raylib.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/exa/Development/Raylib_menno/build/libs/raylib/raylib/Release/raylib.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/menno/Documents/GitHub/Raylib_menno/build/libs/raylib/raylib/MinSizeRel/raylib.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/exa/Development/Raylib_menno/build/libs/raylib/raylib/MinSizeRel/raylib.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/menno/Documents/GitHub/Raylib_menno/build/libs/raylib/raylib/RelWithDebInfo/raylib.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/exa/Development/Raylib_menno/build/libs/raylib/raylib/RelWithDebInfo/raylib.lib")
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "C:/Users/menno/Documents/GitHub/Raylib_menno/raylib-cpp/libs/raylib/src/raylib.h"
-    "C:/Users/menno/Documents/GitHub/Raylib_menno/raylib-cpp/libs/raylib/src/rlgl.h"
-    "C:/Users/menno/Documents/GitHub/Raylib_menno/raylib-cpp/libs/raylib/src/raymath.h"
+    "C:/Users/exa/Development/Raylib_menno/libs/raylib/src/raylib.h"
+    "C:/Users/exa/Development/Raylib_menno/libs/raylib/src/rlgl.h"
+    "C:/Users/exa/Development/Raylib_menno/libs/raylib/src/raymath.h"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/menno/Documents/GitHub/Raylib_menno/build/libs/raylib/raylib/raylib.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/exa/Development/Raylib_menno/build/libs/raylib/raylib/raylib.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/raylib" TYPE FILE FILES "C:/Users/menno/Documents/GitHub/Raylib_menno/build/libs/raylib/raylib/raylib-config-version.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/raylib" TYPE FILE FILES "C:/Users/exa/Development/Raylib_menno/build/libs/raylib/raylib/raylib-config-version.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/raylib" TYPE FILE FILES "C:/Users/menno/Documents/GitHub/Raylib_menno/raylib-cpp/libs/raylib/src/../cmake/raylib-config.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/raylib" TYPE FILE FILES "C:/Users/exa/Development/Raylib_menno/libs/raylib/src/../cmake/raylib-config.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/menno/Documents/GitHub/Raylib_menno/build/libs/raylib/raylib/external/glfw/cmake_install.cmake")
+  include("C:/Users/exa/Development/Raylib_menno/build/libs/raylib/raylib/external/glfw/cmake_install.cmake")
 
 endif()
 
