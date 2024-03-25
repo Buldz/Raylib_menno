@@ -1,24 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\CMakeFiles\bf7b04b4d4572fd942701769ca145983\update_mappings.rule">
+    <CustomBuild Include="C:\Users\exa\Development\Raylib_menno\build\CMakeFiles\b3cac9d709bb74fe0bb43c66c5c57ac3\update_mappings.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\menno\Documents\GitHub\Raylib_menno\raylib-cpp\libs\raylib\src\external\glfw\src\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\exa\Development\Raylib_menno\libs\raylib\src\external\glfw\src\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\menno\Documents\GitHub\Raylib_menno\raylib-cpp\libs\raylib\src\external\glfw\src\mappings.h.in">
+    <None Include="C:\Users\exa\Development\Raylib_menno\libs\raylib\src\external\glfw\src\mappings.h.in">
       <Filter>Header Files</Filter>
     </None>
-    <None Include="C:\Users\menno\Documents\GitHub\Raylib_menno\raylib-cpp\libs\raylib\src\external\glfw\CMake\GenerateMappings.cmake" />
-    <None Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\CMakeFiles\update_mappings" />
+    <None Include="C:\Users\exa\Development\Raylib_menno\libs\raylib\src\external\glfw\CMake\GenerateMappings.cmake" />
+    <None Include="C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\CMakeFiles\update_mappings" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{DFBA4C21-F8D9-3E21-9B4E-185A91A51AE3}</UniqueIdentifier>
+      <UniqueIdentifier>{E21EBFC0-3C73-3FBB-BC10-7D7849ABFB06}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{03628CD4-2566-336C-84C0-A715F0EA4577}</UniqueIdentifier>
+      <UniqueIdentifier>{CFA80169-D59D-3B25-864B-2C15945AF389}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

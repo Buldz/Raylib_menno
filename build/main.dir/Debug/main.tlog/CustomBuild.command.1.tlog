@@ -1,6 +1,6 @@
-^C:\USERS\MENNO\DOCUMENTS\GITHUB\RAYLIB_MENNO\RAYLIB-CPP\CMAKELISTS.TXT
+^C:\USERS\EXA\DEVELOPMENT\RAYLIB_MENNO\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/menno/Documents/GitHub/Raylib_menno/raylib-cpp -BC:/Users/menno/Documents/GitHub/Raylib_menno/build --check-stamp-file C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/exa/Development/Raylib_menno -BC:/Users/exa/Development/Raylib_menno/build --check-stamp-file C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
