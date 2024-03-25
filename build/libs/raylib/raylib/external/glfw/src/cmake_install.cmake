@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/exa/Development/Raylib_menno/libs/raylib/src/external/glfw/src
+# Install script for directory: C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/src/external/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/main")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/main")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

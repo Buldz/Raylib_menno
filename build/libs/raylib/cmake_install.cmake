@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/exa/Development/Raylib_menno/libs/raylib
+# Install script for directory: C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/main")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/main")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/exa/Development/Raylib_menno/build/libs/raylib/raylib/cmake_install.cmake")
+  include("C:/Users/menno/Documents/GitHub/Raylib_menno/build/libs/raylib/raylib/cmake_install.cmake")
 
 endif()
 

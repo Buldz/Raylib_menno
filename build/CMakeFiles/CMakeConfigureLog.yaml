@@ -23,10 +23,10 @@ events:
       
       The output was:
       0
-      MSBuild version 17.7.2+d6990bcfa for .NET Framework
-      Build started 25/03/2024 11:39:11.
+      MSBuild version 17.8.5+b5265ef37 for .NET Framework
+      Build started 3/25/2024 11:46:16 AM.
       
-      Project "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      Project "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Creating directory "Debug\\CompilerIdC.tlog\\".
@@ -34,25 +34,25 @@ events:
         Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
       ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
         CMakeCCompilerId.c
       Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
-        CompilerIdC.vcxproj -> C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.exe
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
-        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
-      Done Building Project "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.87
+      Time Elapsed 00:00:01.68
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -60,7 +60,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/3.28.0-rc5/CompilerIdC/CompilerIdC.exe
+        C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/3.28.0-rc5/CompilerIdC/CompilerIdC.exe
       
   -
     kind: "message-v1"
@@ -77,10 +77,10 @@ events:
       
       The output was:
       0
-      MSBuild version 17.7.2+d6990bcfa for .NET Framework
-      Build started 25/03/2024 11:39:12.
+      MSBuild version 17.8.5+b5265ef37 for .NET Framework
+      Build started 3/25/2024 11:46:18 AM.
       
-      Project "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      Project "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
         Creating directory "Debug\\CompilerIdCXX.tlog\\".
@@ -88,25 +88,25 @@ events:
         Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
       ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
         CMakeCXXCompilerId.cpp
       Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
-        CompilerIdCXX.vcxproj -> C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.exe
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
-        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x86\\cl.exe
       FinalizeBuildStatus:
         Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
         Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
-      Done Building Project "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      Done Building Project "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\3.28.0-rc5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
       
       Build succeeded.
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.61
+      Time Elapsed 00:00:01.50
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -114,7 +114,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/3.28.0-rc5/CompilerIdCXX/CompilerIdCXX.exe
+        C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/3.28.0-rc5/CompilerIdCXX/CompilerIdCXX.exe
       
   -
     kind: "try_compile-v1"
@@ -125,48 +125,48 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-no7mzt"
-      binary: "C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-no7mzt"
+      source: "C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-pamb6o"
+      binary: "C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-pamb6o"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-no7mzt'
+        Change Dir: 'C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-pamb6o'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2c8e2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.7.2+d6990bcfa for .NET Framework
-        Build started 25/03/2024 11:39:13.
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7b26a.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.8.5+b5265ef37 for .NET Framework
+        Build started 3/25/2024 11:46:21 AM.
         
-        Project "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-no7mzt\\cmTC_2c8e2.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pamb6o\\cmTC_7b26a.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_2c8e2.dir\\Debug\\".
-          Creating directory "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-no7mzt\\Debug\\".
-          Creating directory "cmTC_2c8e2.dir\\Debug\\cmTC_2c8e2.tlog\\".
+          Creating directory "cmTC_7b26a.dir\\Debug\\".
+          Creating directory "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pamb6o\\Debug\\".
+          Creating directory "cmTC_7b26a.dir\\Debug\\cmTC_7b26a.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_2c8e2.dir\\Debug\\cmTC_2c8e2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_2c8e2.dir\\Debug\\cmTC_2c8e2.tlog\\unsuccessfulbuild".
+          Creating "cmTC_7b26a.dir\\Debug\\cmTC_7b26a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_7b26a.dir\\Debug\\cmTC_7b26a.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2c8e2.dir\\Debug\\\\" /Fd"cmTC_2c8e2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32824 for x64
-          CMakeCCompilerABI.c
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7b26a.dir\\Debug\\\\" /Fd"cmTC_7b26a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32544 for x86
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2c8e2.dir\\Debug\\\\" /Fd"cmTC_2c8e2.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7b26a.dir\\Debug\\\\" /Fd"cmTC_7b26a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-no7mzt\\Debug\\cmTC_2c8e2.exe" /INCREMENTAL /ILK:"cmTC_2c8e2.dir\\Debug\\cmTC_2c8e2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-no7mzt/Debug/cmTC_2c8e2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-no7mzt/Debug/cmTC_2c8e2.lib" /MACHINE:X64  /machine:x64 cmTC_2c8e2.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_2c8e2.vcxproj -> C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-no7mzt\\Debug\\cmTC_2c8e2.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pamb6o\\Debug\\cmTC_7b26a.exe" /INCREMENTAL /ILK:"cmTC_7b26a.dir\\Debug\\cmTC_7b26a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-pamb6o/Debug/cmTC_7b26a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-pamb6o/Debug/cmTC_7b26a.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_7b26a.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_7b26a.vcxproj -> C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pamb6o\\Debug\\cmTC_7b26a.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_2c8e2.dir\\Debug\\cmTC_2c8e2.tlog\\unsuccessfulbuild".
-          Touching "cmTC_2c8e2.dir\\Debug\\cmTC_2c8e2.tlog\\cmTC_2c8e2.lastbuildstate".
-        Done Building Project "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-no7mzt\\cmTC_2c8e2.vcxproj" (default targets).
+          Deleting file "cmTC_7b26a.dir\\Debug\\cmTC_7b26a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_7b26a.dir\\Debug\\cmTC_7b26a.tlog\\cmTC_7b26a.lastbuildstate".
+        Done Building Project "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-pamb6o\\cmTC_7b26a.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.54
+        Time Elapsed 00:00:01.42
         
       exitCode: 0
   -
@@ -178,48 +178,48 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-x0kr6r"
-      binary: "C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-x0kr6r"
+      source: "C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-nqg5kf"
+      binary: "C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-nqg5kf"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-x0kr6r'
+        Change Dir: 'C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-nqg5kf'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_15339.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.7.2+d6990bcfa for .NET Framework
-        Build started 25/03/2024 11:39:14.
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_99b01.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.8.5+b5265ef37 for .NET Framework
+        Build started 3/25/2024 11:46:23 AM.
         
-        Project "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0kr6r\\cmTC_15339.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nqg5kf\\cmTC_99b01.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_15339.dir\\Debug\\".
-          Creating directory "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0kr6r\\Debug\\".
-          Creating directory "cmTC_15339.dir\\Debug\\cmTC_15339.tlog\\".
+          Creating directory "cmTC_99b01.dir\\Debug\\".
+          Creating directory "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nqg5kf\\Debug\\".
+          Creating directory "cmTC_99b01.dir\\Debug\\cmTC_99b01.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_15339.dir\\Debug\\cmTC_15339.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_15339.dir\\Debug\\cmTC_15339.tlog\\unsuccessfulbuild".
+          Creating "cmTC_99b01.dir\\Debug\\cmTC_99b01.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_99b01.dir\\Debug\\cmTC_99b01.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_15339.dir\\Debug\\\\" /Fd"cmTC_15339.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32824 for x64
-          CMakeCXXCompilerABI.cpp
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_99b01.dir\\Debug\\\\" /Fd"cmTC_99b01.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32544 for x86
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_15339.dir\\Debug\\\\" /Fd"cmTC_15339.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_99b01.dir\\Debug\\\\" /Fd"cmTC_99b01.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0kr6r\\Debug\\cmTC_15339.exe" /INCREMENTAL /ILK:"cmTC_15339.dir\\Debug\\cmTC_15339.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-x0kr6r/Debug/cmTC_15339.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-x0kr6r/Debug/cmTC_15339.lib" /MACHINE:X64  /machine:x64 cmTC_15339.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_15339.vcxproj -> C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0kr6r\\Debug\\cmTC_15339.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nqg5kf\\Debug\\cmTC_99b01.exe" /INCREMENTAL /ILK:"cmTC_99b01.dir\\Debug\\cmTC_99b01.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-nqg5kf/Debug/cmTC_99b01.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-nqg5kf/Debug/cmTC_99b01.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_99b01.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_99b01.vcxproj -> C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nqg5kf\\Debug\\cmTC_99b01.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_15339.dir\\Debug\\cmTC_15339.tlog\\unsuccessfulbuild".
-          Touching "cmTC_15339.dir\\Debug\\cmTC_15339.tlog\\cmTC_15339.lastbuildstate".
-        Done Building Project "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x0kr6r\\cmTC_15339.vcxproj" (default targets).
+          Deleting file "cmTC_99b01.dir\\Debug\\cmTC_99b01.tlog\\unsuccessfulbuild".
+          Touching "cmTC_99b01.dir\\Debug\\cmTC_99b01.tlog\\cmTC_99b01.lastbuildstate".
+        Done Building Project "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nqg5kf\\cmTC_99b01.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.57
+        Time Elapsed 00:00:01.45
         
       exitCode: 0
   -
@@ -234,48 +234,48 @@ events:
     checks:
       - "Performing Test COMPILER_HAS_THOSE_TOGGLES"
     directories:
-      source: "C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-wvj0n5"
-      binary: "C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-wvj0n5"
+      source: "C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-94rkwl"
+      binary: "C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-94rkwl"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/exa/Development/Raylib_menno/libs/raylib/cmake"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/cmake"
     buildResult:
       variable: "COMPILER_HAS_THOSE_TOGGLES"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-wvj0n5'
+        Change Dir: 'C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-94rkwl'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b740e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.7.2+d6990bcfa for .NET Framework
-        Build started 25/03/2024 11:39:15.
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2e49e.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.8.5+b5265ef37 for .NET Framework
+        Build started 3/25/2024 11:46:25 AM.
         
-        Project "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wvj0n5\\cmTC_b740e.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-94rkwl\\cmTC_2e49e.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_b740e.dir\\Debug\\".
-          Creating directory "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wvj0n5\\Debug\\".
-          Creating directory "cmTC_b740e.dir\\Debug\\cmTC_b740e.tlog\\".
+          Creating directory "cmTC_2e49e.dir\\Debug\\".
+          Creating directory "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-94rkwl\\Debug\\".
+          Creating directory "cmTC_2e49e.dir\\Debug\\cmTC_2e49e.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_b740e.dir\\Debug\\cmTC_b740e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_b740e.dir\\Debug\\cmTC_b740e.tlog\\unsuccessfulbuild".
+          Creating "cmTC_2e49e.dir\\Debug\\cmTC_2e49e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_2e49e.dir\\Debug\\cmTC_2e49e.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_THOSE_TOGGLES /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b740e.dir\\Debug\\\\" /Fd"cmTC_b740e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  -Werror=pointer-arith "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wvj0n5\\src.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32824 for x64
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_THOSE_TOGGLES /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2e49e.dir\\Debug\\\\" /Fd"cmTC_2e49e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue  -Werror=pointer-arith "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-94rkwl\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32544 for x86
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_THOSE_TOGGLES /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b740e.dir\\Debug\\\\" /Fd"cmTC_b740e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  -Werror=pointer-arith "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wvj0n5\\src.c"
-        cl : command line  error D8021: invalid numeric argument '/Werror=pointer-arith' [C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wvj0n5\\cmTC_b740e.vcxproj]
-        Done Building Project "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wvj0n5\\cmTC_b740e.vcxproj" (default targets) -- FAILED.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_THOSE_TOGGLES /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2e49e.dir\\Debug\\\\" /Fd"cmTC_2e49e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue  -Werror=pointer-arith "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-94rkwl\\src.c"
+        cl : command line  error D8021: invalid numeric argument '/Werror=pointer-arith' [C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-94rkwl\\cmTC_2e49e.vcxproj]
+        Done Building Project "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-94rkwl\\cmTC_2e49e.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wvj0n5\\cmTC_b740e.vcxproj" (default target) (1) ->
+        "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-94rkwl\\cmTC_2e49e.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          cl : command line  error D8021: invalid numeric argument '/Werror=pointer-arith' [C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wvj0n5\\cmTC_b740e.vcxproj]
+          cl : command line  error D8021: invalid numeric argument '/Werror=pointer-arith' [C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-94rkwl\\cmTC_2e49e.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.32
+        Time Elapsed 00:00:01.22
         
       exitCode: 1
   -
@@ -289,49 +289,49 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-p6gqip"
-      binary: "C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-p6gqip"
+      source: "C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-5ajbaa"
+      binary: "C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-5ajbaa"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/exa/Development/Raylib_menno/libs/raylib/cmake;C:/Users/exa/Development/Raylib_menno/libs/raylib/src/external/glfw/CMake/modules"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/cmake;C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/src/external/glfw/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-p6gqip'
+        Change Dir: 'C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-5ajbaa'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e08ff.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.7.2+d6990bcfa for .NET Framework
-        Build started 25/03/2024 11:39:15.
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8e06f.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.8.5+b5265ef37 for .NET Framework
+        Build started 3/25/2024 11:46:26 AM.
         
-        Project "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p6gqip\\cmTC_e08ff.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ajbaa\\cmTC_8e06f.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_e08ff.dir\\Debug\\".
-          Creating directory "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p6gqip\\Debug\\".
-          Creating directory "cmTC_e08ff.dir\\Debug\\cmTC_e08ff.tlog\\".
+          Creating directory "cmTC_8e06f.dir\\Debug\\".
+          Creating directory "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ajbaa\\Debug\\".
+          Creating directory "cmTC_8e06f.dir\\Debug\\cmTC_8e06f.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_e08ff.dir\\Debug\\cmTC_e08ff.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_e08ff.dir\\Debug\\cmTC_e08ff.tlog\\unsuccessfulbuild".
+          Creating "cmTC_8e06f.dir\\Debug\\cmTC_8e06f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8e06f.dir\\Debug\\cmTC_8e06f.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e08ff.dir\\Debug\\\\" /Fd"cmTC_e08ff.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p6gqip\\src.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32824 for x64
-          src.c
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8e06f.dir\\Debug\\\\" /Fd"cmTC_8e06f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ajbaa\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32544 for x86
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e08ff.dir\\Debug\\\\" /Fd"cmTC_e08ff.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p6gqip\\src.c"
-        C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p6gqip\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p6gqip\\cmTC_e08ff.vcxproj]
-        Done Building Project "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p6gqip\\cmTC_e08ff.vcxproj" (default targets) -- FAILED.
+          src.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8e06f.dir\\Debug\\\\" /Fd"cmTC_8e06f.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ajbaa\\src.c"
+        C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ajbaa\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ajbaa\\cmTC_8e06f.vcxproj]
+        Done Building Project "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ajbaa\\cmTC_8e06f.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p6gqip\\cmTC_e08ff.vcxproj" (default target) (1) ->
+        "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ajbaa\\cmTC_8e06f.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p6gqip\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p6gqip\\cmTC_e08ff.vcxproj]
+          C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ajbaa\\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5ajbaa\\cmTC_8e06f.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.39
+        Time Elapsed 00:00:01.23
         
       exitCode: 1
   -
@@ -344,52 +344,52 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-v6r1dz"
-      binary: "C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-v6r1dz"
+      source: "C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-y39c28"
+      binary: "C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-y39c28"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/exa/Development/Raylib_menno/libs/raylib/cmake;C:/Users/exa/Development/Raylib_menno/libs/raylib/src/external/glfw/CMake/modules"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/cmake;C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/src/external/glfw/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-v6r1dz'
+        Change Dir: 'C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-y39c28'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6a88d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.7.2+d6990bcfa for .NET Framework
-        Build started 25/03/2024 11:39:16.
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_59062.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.8.5+b5265ef37 for .NET Framework
+        Build started 3/25/2024 11:46:28 AM.
         
-        Project "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v6r1dz\\cmTC_6a88d.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y39c28\\cmTC_59062.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_6a88d.dir\\Debug\\".
-          Creating directory "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v6r1dz\\Debug\\".
-          Creating directory "cmTC_6a88d.dir\\Debug\\cmTC_6a88d.tlog\\".
+          Creating directory "cmTC_59062.dir\\Debug\\".
+          Creating directory "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y39c28\\Debug\\".
+          Creating directory "cmTC_59062.dir\\Debug\\cmTC_59062.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_6a88d.dir\\Debug\\cmTC_6a88d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_6a88d.dir\\Debug\\cmTC_6a88d.tlog\\unsuccessfulbuild".
+          Creating "cmTC_59062.dir\\Debug\\cmTC_59062.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_59062.dir\\Debug\\cmTC_59062.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6a88d.dir\\Debug\\\\" /Fd"cmTC_6a88d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v6r1dz\\CheckFunctionExists.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32824 for x64
-          CheckFunctionExists.c
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_59062.dir\\Debug\\\\" /Fd"cmTC_59062.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y39c28\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32544 for x86
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6a88d.dir\\Debug\\\\" /Fd"cmTC_6a88d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v6r1dz\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_59062.dir\\Debug\\\\" /Fd"cmTC_59062.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y39c28\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v6r1dz\\Debug\\cmTC_6a88d.exe" /INCREMENTAL /ILK:"cmTC_6a88d.dir\\Debug\\cmTC_6a88d.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-v6r1dz/Debug/cmTC_6a88d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-v6r1dz/Debug/cmTC_6a88d.lib" /MACHINE:X64  /machine:x64 cmTC_6a88d.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v6r1dz\\cmTC_6a88d.vcxproj]
-        Done Building Project "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v6r1dz\\cmTC_6a88d.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y39c28\\Debug\\cmTC_59062.exe" /INCREMENTAL /ILK:"cmTC_59062.dir\\Debug\\cmTC_59062.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-y39c28/Debug/cmTC_59062.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-y39c28/Debug/cmTC_59062.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_59062.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y39c28\\cmTC_59062.vcxproj]
+        Done Building Project "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y39c28\\cmTC_59062.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v6r1dz\\cmTC_6a88d.vcxproj" (default target) (1) ->
+        "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y39c28\\cmTC_59062.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v6r1dz\\cmTC_6a88d.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y39c28\\cmTC_59062.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.46
+        Time Elapsed 00:00:01.36
         
       exitCode: 1
   -
@@ -402,52 +402,52 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-r9pvzn"
-      binary: "C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-r9pvzn"
+      source: "C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-2up4dw"
+      binary: "C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-2up4dw"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "C:/Users/exa/Development/Raylib_menno/libs/raylib/cmake;C:/Users/exa/Development/Raylib_menno/libs/raylib/src/external/glfw/CMake/modules"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_MODULE_PATH: "C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/cmake;C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/src/external/glfw/CMake/modules"
     buildResult:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-r9pvzn'
+        Change Dir: 'C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-2up4dw'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c75ba.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
-        MSBuild version 17.7.2+d6990bcfa for .NET Framework
-        Build started 25/03/2024 11:39:17.
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4c873.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.8.5+b5265ef37 for .NET Framework
+        Build started 3/25/2024 11:46:30 AM.
         
-        Project "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r9pvzn\\cmTC_c75ba.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2up4dw\\cmTC_4c873.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_c75ba.dir\\Debug\\".
-          Creating directory "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r9pvzn\\Debug\\".
-          Creating directory "cmTC_c75ba.dir\\Debug\\cmTC_c75ba.tlog\\".
+          Creating directory "cmTC_4c873.dir\\Debug\\".
+          Creating directory "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2up4dw\\Debug\\".
+          Creating directory "cmTC_4c873.dir\\Debug\\cmTC_4c873.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_c75ba.dir\\Debug\\cmTC_c75ba.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_c75ba.dir\\Debug\\cmTC_c75ba.tlog\\unsuccessfulbuild".
+          Creating "cmTC_4c873.dir\\Debug\\cmTC_4c873.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_4c873.dir\\Debug\\cmTC_4c873.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c75ba.dir\\Debug\\\\" /Fd"cmTC_c75ba.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r9pvzn\\CheckFunctionExists.c"
-          Microsoft (R) C/C++ Optimizing Compiler Version 19.37.32824 for x64
-          CheckFunctionExists.c
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4c873.dir\\Debug\\\\" /Fd"cmTC_4c873.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2up4dw\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32544 for x86
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c75ba.dir\\Debug\\\\" /Fd"cmTC_c75ba.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r9pvzn\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4c873.dir\\Debug\\\\" /Fd"cmTC_4c873.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2up4dw\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r9pvzn\\Debug\\cmTC_c75ba.exe" /INCREMENTAL /ILK:"cmTC_c75ba.dir\\Debug\\cmTC_c75ba.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-r9pvzn/Debug/cmTC_c75ba.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/exa/Development/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-r9pvzn/Debug/cmTC_c75ba.lib" /MACHINE:X64  /machine:x64 cmTC_c75ba.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r9pvzn\\cmTC_c75ba.vcxproj]
-        Done Building Project "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r9pvzn\\cmTC_c75ba.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2up4dw\\Debug\\cmTC_4c873.exe" /INCREMENTAL /ILK:"cmTC_4c873.dir\\Debug\\cmTC_4c873.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-2up4dw/Debug/cmTC_4c873.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/menno/Documents/GitHub/Raylib_menno/build/CMakeFiles/CMakeScratch/TryCompile-2up4dw/Debug/cmTC_4c873.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_4c873.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2up4dw\\cmTC_4c873.vcxproj]
+        Done Building Project "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2up4dw\\cmTC_4c873.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r9pvzn\\cmTC_c75ba.vcxproj" (default target) (1) ->
+        "C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2up4dw\\cmTC_4c873.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\exa\\Development\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r9pvzn\\cmTC_c75ba.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\menno\\Documents\\GitHub\\Raylib_menno\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2up4dw\\cmTC_4c873.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.46
+        Time Elapsed 00:00:01.34
         
       exitCode: 1
 ...

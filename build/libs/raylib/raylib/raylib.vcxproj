@@ -4,48 +4,48 @@
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
   <ItemGroup Label="ProjectConfigurations">
-    <ProjectConfiguration Include="Debug|x64">
+    <ProjectConfiguration Include="Debug|win32">
       <Configuration>Debug</Configuration>
-      <Platform>x64</Platform>
+      <Platform>win32</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="Release|x64">
+    <ProjectConfiguration Include="Release|win32">
       <Configuration>Release</Configuration>
-      <Platform>x64</Platform>
+      <Platform>win32</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="MinSizeRel|x64">
+    <ProjectConfiguration Include="MinSizeRel|win32">
       <Configuration>MinSizeRel</Configuration>
-      <Platform>x64</Platform>
+      <Platform>win32</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="RelWithDebInfo|x64">
+    <ProjectConfiguration Include="RelWithDebInfo|win32">
       <Configuration>RelWithDebInfo</Configuration>
-      <Platform>x64</Platform>
+      <Platform>win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{8EF1AFCE-C58E-3543-8186-C6AA56519D2D}</ProjectGuid>
+    <ProjectGuid>{E1259058-EDF5-3658-BC5C-0038C1508444}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
-    <Platform>x64</Platform>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>win32</Platform>
     <ProjectName>raylib</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
@@ -59,27 +59,27 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\Debug\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">raylib.dir\Debug\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">raylib</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\Release\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">raylib.dir\Release\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">raylib</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\MinSizeRel\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">raylib.dir\MinSizeRel\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">raylib</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\RelWithDebInfo\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">raylib.dir\RelWithDebInfo\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">raylib</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">raylib.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">raylib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">raylib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|win32'">raylib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">raylib.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">raylib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">raylib.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">raylib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">.lib</TargetExt>
   </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\exa\Development\Raylib_menno\libs\raylib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/exa/Development/Raylib_menno/libs/raylib/src/external/glfw/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/src/external/glfw/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -97,10 +97,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;PLATFORM_DESKTOP;GRAPHICS_API_OPENGL_33;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\exa\Development\Raylib_menno\libs\raylib\src;C:\Users\exa\Development\Raylib_menno\libs\raylib\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\exa\Development\Raylib_menno\libs\raylib\src;C:\Users\exa\Development\Raylib_menno\libs\raylib\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -108,13 +108,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\exa\Development\Raylib_menno\libs\raylib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/exa/Development/Raylib_menno/libs/raylib/src/external/glfw/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/src/external/glfw/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -132,10 +132,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLATFORM_DESKTOP;GRAPHICS_API_OPENGL_33;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\exa\Development\Raylib_menno\libs\raylib\src;C:\Users\exa\Development\Raylib_menno\libs\raylib\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\exa\Development\Raylib_menno\libs\raylib\src;C:\Users\exa\Development\Raylib_menno\libs\raylib\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -143,13 +143,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\exa\Development\Raylib_menno\libs\raylib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/exa/Development/Raylib_menno/libs/raylib/src/external/glfw/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/src/external/glfw/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>
       </ExceptionHandling>
@@ -167,10 +167,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLATFORM_DESKTOP;GRAPHICS_API_OPENGL_33;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\exa\Development\Raylib_menno\libs\raylib\src;C:\Users\exa\Development\Raylib_menno\libs\raylib\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\exa\Development\Raylib_menno\libs\raylib\src;C:\Users\exa\Development\Raylib_menno\libs\raylib\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -178,13 +178,13 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\exa\Development\Raylib_menno\libs\raylib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/exa/Development/Raylib_menno/libs/raylib/src/external/glfw/include"</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/src/external/glfw/include"</AdditionalOptions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>
@@ -201,10 +201,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLATFORM_DESKTOP;GRAPHICS_API_OPENGL_33;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\exa\Development\Raylib_menno\libs\raylib\src;C:\Users\exa\Development\Raylib_menno\libs\raylib\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\exa\Development\Raylib_menno\libs\raylib\src;C:\Users\exa\Development\Raylib_menno\libs\raylib\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\external\glfw\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -212,15 +212,15 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\exa\Development\Raylib_menno\libs\raylib\src\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/exa/Development/Raylib_menno/libs/raylib/src/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/exa/Development/Raylib_menno -BC:/Users/exa/Development/Raylib_menno/build --check-stamp-file C:/Users/exa/Development/Raylib_menno/build/libs/raylib/raylib/CMakeFiles/generate.stamp
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/menno/Documents/GitHub/Raylib_menno -BC:/Users/menno/Documents/GitHub/Raylib_menno/build --check-stamp-file C:/Users/menno/Documents/GitHub/Raylib_menno/build/libs/raylib/raylib/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -228,12 +228,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.28\Templates\CPackConfig.cmake.in;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\CompileDefinitions.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\GlfwImport.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\InstallConfigurations.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\JoinPaths.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\LibraryConfigurations.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\LibraryPathToLinkerFlags.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\PackConfigurations.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\PopulateConfigVariablesLocally.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\raylib-config-version.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\raylib.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/exa/Development/Raylib_menno/libs/raylib/src/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/exa/Development/Raylib_menno -BC:/Users/exa/Development/Raylib_menno/build --check-stamp-file C:/Users/exa/Development/Raylib_menno/build/libs/raylib/raylib/CMakeFiles/generate.stamp
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Program Files\CMake\share\cmake-3.28\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.28\Templates\CPackConfig.cmake.in;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\CompileDefinitions.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\GlfwImport.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\InstallConfigurations.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\JoinPaths.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\LibraryConfigurations.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\LibraryPathToLinkerFlags.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\PackConfigurations.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\PopulateConfigVariablesLocally.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\raylib-config-version.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\raylib.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/menno/Documents/GitHub/Raylib_menno -BC:/Users/menno/Documents/GitHub/Raylib_menno/build --check-stamp-file C:/Users/menno/Documents/GitHub/Raylib_menno/build/libs/raylib/raylib/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -241,12 +241,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.28\Templates\CPackConfig.cmake.in;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\CompileDefinitions.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\GlfwImport.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\InstallConfigurations.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\JoinPaths.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\LibraryConfigurations.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\LibraryPathToLinkerFlags.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\PackConfigurations.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\PopulateConfigVariablesLocally.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\raylib-config-version.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\raylib.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/exa/Development/Raylib_menno/libs/raylib/src/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/exa/Development/Raylib_menno -BC:/Users/exa/Development/Raylib_menno/build --check-stamp-file C:/Users/exa/Development/Raylib_menno/build/libs/raylib/raylib/CMakeFiles/generate.stamp
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Program Files\CMake\share\cmake-3.28\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.28\Templates\CPackConfig.cmake.in;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\CompileDefinitions.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\GlfwImport.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\InstallConfigurations.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\JoinPaths.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\LibraryConfigurations.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\LibraryPathToLinkerFlags.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\PackConfigurations.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\PopulateConfigVariablesLocally.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\raylib-config-version.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\raylib.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/menno/Documents/GitHub/Raylib_menno -BC:/Users/menno/Documents/GitHub/Raylib_menno/build --check-stamp-file C:/Users/menno/Documents/GitHub/Raylib_menno/build/libs/raylib/raylib/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -254,12 +254,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.28\Templates\CPackConfig.cmake.in;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\CompileDefinitions.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\GlfwImport.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\InstallConfigurations.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\JoinPaths.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\LibraryConfigurations.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\LibraryPathToLinkerFlags.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\PackConfigurations.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\PopulateConfigVariablesLocally.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\raylib-config-version.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\raylib.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/exa/Development/Raylib_menno/libs/raylib/src/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/exa/Development/Raylib_menno -BC:/Users/exa/Development/Raylib_menno/build --check-stamp-file C:/Users/exa/Development/Raylib_menno/build/libs/raylib/raylib/CMakeFiles/generate.stamp
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Program Files\CMake\share\cmake-3.28\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.28\Templates\CPackConfig.cmake.in;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\CompileDefinitions.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\GlfwImport.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\InstallConfigurations.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\JoinPaths.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\LibraryConfigurations.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\LibraryPathToLinkerFlags.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\PackConfigurations.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\PopulateConfigVariablesLocally.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\raylib-config-version.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\raylib.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/menno/Documents/GitHub/Raylib_menno -BC:/Users/menno/Documents/GitHub/Raylib_menno/build --check-stamp-file C:/Users/menno/Documents/GitHub/Raylib_menno/build/libs/raylib/raylib/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -267,53 +267,53 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.28\Templates\CPackConfig.cmake.in;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\CompileDefinitions.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\GlfwImport.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\InstallConfigurations.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\JoinPaths.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\LibraryConfigurations.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\LibraryPathToLinkerFlags.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\PackConfigurations.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\PopulateConfigVariablesLocally.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\cmake\raylib-config-version.cmake;C:\Users\exa\Development\Raylib_menno\libs\raylib\raylib.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Program Files\CMake\share\cmake-3.28\Modules\CPack.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CPackComponent.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\GNUInstallDirs.cmake;C:\Program Files\CMake\share\cmake-3.28\Templates\CPackConfig.cmake.in;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\CompileDefinitions.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\GlfwImport.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\InstallConfigurations.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\JoinPaths.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\LibraryConfigurations.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\LibraryPathToLinkerFlags.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\PackConfigurations.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\PopulateConfigVariablesLocally.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\cmake\raylib-config-version.cmake;C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\raylib.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\exa\Development\Raylib_menno\libs\raylib\src\rcore.c" />
-    <ClCompile Include="C:\Users\exa\Development\Raylib_menno\libs\raylib\src\rmodels.c" />
-    <ClCompile Include="C:\Users\exa\Development\Raylib_menno\libs\raylib\src\rshapes.c" />
-    <ClCompile Include="C:\Users\exa\Development\Raylib_menno\libs\raylib\src\rtext.c" />
-    <ClCompile Include="C:\Users\exa\Development\Raylib_menno\libs\raylib\src\rtextures.c" />
-    <ClCompile Include="C:\Users\exa\Development\Raylib_menno\libs\raylib\src\utils.c" />
-    <Object Include="C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\context.obj" />
-    <Object Include="C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\init.obj" />
-    <Object Include="C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\input.obj" />
-    <Object Include="C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\monitor.obj" />
-    <Object Include="C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\platform.obj" />
-    <Object Include="C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\vulkan.obj" />
-    <Object Include="C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\window.obj" />
-    <Object Include="C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\egl_context.obj" />
-    <Object Include="C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\osmesa_context.obj" />
-    <Object Include="C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_init.obj" />
-    <Object Include="C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_monitor.obj" />
-    <Object Include="C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_window.obj" />
-    <Object Include="C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_joystick.obj" />
-    <Object Include="C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_module.obj" />
-    <Object Include="C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_time.obj" />
-    <Object Include="C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_thread.obj" />
-    <Object Include="C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_init.obj" />
-    <Object Include="C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_joystick.obj" />
-    <Object Include="C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_monitor.obj" />
-    <Object Include="C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_window.obj" />
-    <Object Include="C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\wgl_context.obj" />
-    <ClCompile Include="C:\Users\exa\Development\Raylib_menno\libs\raylib\src\raudio.c" />
-    <ClInclude Include="C:\Users\exa\Development\Raylib_menno\libs\raylib\src\raylib.h" />
-    <ClInclude Include="C:\Users\exa\Development\Raylib_menno\libs\raylib\src\rlgl.h" />
-    <ClInclude Include="C:\Users\exa\Development\Raylib_menno\libs\raylib\src\raymath.h" />
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\rcore.c" />
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\rmodels.c" />
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\rshapes.c" />
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\rtext.c" />
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\rtextures.c" />
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\utils.c" />
+    <Object Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\context.obj" />
+    <Object Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\init.obj" />
+    <Object Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\input.obj" />
+    <Object Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\monitor.obj" />
+    <Object Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\platform.obj" />
+    <Object Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\vulkan.obj" />
+    <Object Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\window.obj" />
+    <Object Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\egl_context.obj" />
+    <Object Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\osmesa_context.obj" />
+    <Object Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_init.obj" />
+    <Object Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_monitor.obj" />
+    <Object Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_window.obj" />
+    <Object Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_joystick.obj" />
+    <Object Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_module.obj" />
+    <Object Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_time.obj" />
+    <Object Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_thread.obj" />
+    <Object Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_init.obj" />
+    <Object Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_joystick.obj" />
+    <Object Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_monitor.obj" />
+    <Object Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_window.obj" />
+    <Object Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.dir\$(Configuration)\wgl_context.obj" />
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\raudio.c" />
+    <ClInclude Include="C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\raylib.h" />
+    <ClInclude Include="C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\rlgl.h" />
+    <ClInclude Include="C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\raymath.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\exa\Development\Raylib_menno\build\ZERO_CHECK.vcxproj">
-      <Project>{7B864E51-FB48-3AA3-B076-E955BD369E51}</Project>
+    <ProjectReference Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\ZERO_CHECK.vcxproj">
+      <Project>{A88A7F20-02BA-3AD2-8556-F910CB8FB8E7}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\exa\Development\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.vcxproj">
-      <Project>{5AD59585-AE40-3BAB-AAC0-74651927D0B2}</Project>
+    <ProjectReference Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\glfw.vcxproj">
+      <Project>{23BE337D-1D6A-3FBA-8810-220530211840}</Project>
       <Name>glfw</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

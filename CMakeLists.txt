@@ -23,4 +23,3 @@ target_include_directories(${PROJECT_NAME} PUBLIC ${WORKING_DIRECTORY}/framework
 target_link_libraries(${PROJECT_NAME} PRIVATE raylib)
 
 file(COPY assets/ DESTINATION ${CMAKE_BINARY_DIR})
-

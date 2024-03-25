@@ -10,5 +10,5 @@ C:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake
 C:/Program Files/CMake/share/cmake-3.28/Modules/FindThreads.cmake
 C:/Program Files/CMake/share/cmake-3.28/Modules/GNUInstallDirs.cmake
 C:/Program Files/CMake/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake
-C:/Users/exa/Development/Raylib_menno/libs/raylib/src/external/glfw/CMake/glfw3Config.cmake.in
-C:/Users/exa/Development/Raylib_menno/libs/raylib/src/external/glfw/CMakeLists.txt
+C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/src/external/glfw/CMake/glfw3Config.cmake.in
+C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/src/external/glfw/CMakeLists.txt

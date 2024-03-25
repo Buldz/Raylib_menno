@@ -6,10 +6,10 @@ C:/Program Files/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake
 C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake
 C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckFlagCommonConfig.cmake
 C:/Program Files/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake
-C:/Users/exa/Development/Raylib_menno/libs/raylib/CMakeLists.txt
-C:/Users/exa/Development/Raylib_menno/libs/raylib/CMakeOptions.txt
-C:/Users/exa/Development/Raylib_menno/libs/raylib/cmake/AddIfFlagCompiles.cmake
-C:/Users/exa/Development/Raylib_menno/libs/raylib/cmake/BuildOptions.cmake
-C:/Users/exa/Development/Raylib_menno/libs/raylib/cmake/CompilerFlags.cmake
-C:/Users/exa/Development/Raylib_menno/libs/raylib/cmake/EnumOption.cmake
-C:/Users/exa/Development/Raylib_menno/libs/raylib/cmake/Uninstall.cmake
+C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/CMakeLists.txt
+C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/CMakeOptions.txt
+C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/cmake/AddIfFlagCompiles.cmake
+C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/cmake/BuildOptions.cmake
+C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/cmake/CompilerFlags.cmake
+C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/cmake/EnumOption.cmake
+C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/cmake/Uninstall.cmake
