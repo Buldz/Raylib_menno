@@ -4,9 +4,9 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
-#define screen_width 800
-#define screen_height 800
-#define fullscreen 0
+#define screen_width 1920
+#define screen_height 1080
+#define fullscreen 1
 #define vsync 0
 #define msaa 0
 

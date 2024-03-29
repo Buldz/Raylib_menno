@@ -8,7 +8,7 @@ Scene::Scene() : Entity()
 
     Config::configure();
 
-    timer = new Timer;
+    timer = new Timer();
 }
 
 Scene::~Scene()

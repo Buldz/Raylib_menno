@@ -4,10 +4,11 @@
 
 Scene1::Scene1() : Scene()
 {
+
     // Camera Settings
     camera.offset = Vector2{0, Config::SHEIGHT / 2.0f};
     camera.rotation = 0.0f;
-    camera.zoom = 1.0f;
+    camera.zoom = 0.50f;
 
     // SpawnManager
     _spawnRate = 0.5;
@@ -38,14 +39,15 @@ void Scene1::update(float deltatime)
         return;
     }
 
-    // Updates Camera target to player location
-    camera.target = Vector2{0.0f, player->position.y};
 
     SpawnManager();
     DeleteEnemy();
 
     // Draws Player
     player->update(_deltaTime);
+
+    // Updates Camera target to player location
+    camera.target = Vector2{0.0f, player->position.y};
     
     for (Enemy* enemy : enemys)
     {

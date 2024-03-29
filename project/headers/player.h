@@ -32,5 +32,6 @@ private:
     float _deltaTime;
     int _playerSpeed;
     bool _alive;
+    Texture2D _playerTexture;
 };
 #endif /* PLAYER_H */

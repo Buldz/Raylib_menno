@@ -26,9 +26,7 @@ void Enemy::update(float deltatime)
 {
     DrawRectangle((int)position.x, (int)position.y, (int)size.x, (int)size.y, RED);
     Move();
-
-    if (this->position.x >= Config::SWIDTH + 50){_alive = false;}
-    if (this->position.x <= 0 - this->size.x - 50){_alive = false;} 
+    EnemyBorder();
 }
 
 void Enemy::Move()
@@ -65,4 +63,10 @@ void Enemy::RandomSpawn()
     {
         this->position = {Config::SWIDTH - Config::SWIDTH - this->size.x, 100};
     }
+}
+
+void Enemy::EnemyBorder()
+{
+    if (this->position.x >= Config::SWIDTH + 50){_alive = false;}
+    if (this->position.x <= 0 - this->size.x - 50){_alive = false;} 
 }

@@ -5,9 +5,10 @@
 
 Player::Player() : Entity()
 {
+    _playerTexture = LoadTexture("../assets/playerSprite.png");
     position = {Config::SWIDTH/2, Config::SHEIGHT/2};
     size = {50, 50};
-    _playerSpeed = (int)size.y;
+    _playerSpeed = (int)this->size.x;
 
     playerIsAlive = true;
 }
@@ -19,6 +20,7 @@ Player::~Player()
 
 void Player::update(float _deltatime)
 {
+    //DrawTextureEx(_playerTexture, Vector2{this->position.x, this->position.y}, 0, 8, WHITE);
     DrawRectangle((int)position.x, (int)position.y, (int)size.x, (int)size.y, BLUE);
     Move();
     IsPlayerDead();
@@ -39,7 +41,7 @@ void Player::Move()
         {
             position.x += _playerSpeed;
         }
-        else if (IsKeyPressed(KEY_A) || IsKeyPressed(KEY_UP) || IsKeyPressed(KEY_LEFT))
+        else if (IsKeyPressed(KEY_A) || IsKeyPressed(KEY_LEFT))
         {
             position.x += -_playerSpeed;
         }

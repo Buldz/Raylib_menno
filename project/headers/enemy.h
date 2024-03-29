@@ -22,12 +22,12 @@ public:
 
     //Methods
     void RandomSpawn();
-
     bool EnemyIsAlive() { return _alive; }
     
 private:
     //Methods
     void Move();
+    void EnemyBorder();
 
     //Variables
     float _deltaTime;
