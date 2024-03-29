@@ -22,16 +22,16 @@ public:
 
     //Methods
     void RandomSpawn();
-    bool EnemyIsAlive() { return _alive; }
+    bool IsAlive() { return _alive; }
     
 private:
     //Methods
     void Move();
-    void EnemyBorder();
+    void BorderDelete();
 
     //Variables
     float _deltaTime;
-    float _enemySpeed;
+    float _speed;
     bool _goesLeft;
     bool _alive;
 };

@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{962AE7D1-0847-3E67-B5FA-A76454DE6EE7}</ProjectGuid>
+    <ProjectGuid>{74AC8596-711B-3C35-B04E-D6F9AD1BFC24}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>win32</Platform>
@@ -105,14 +105,14 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\CMakeFiles\bf7b04b4d4572fd942701769ca145983\update_mappings.rule">
+    <CustomBuild Include="C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\build\CMakeFiles\310f83a23e84496a56c4ad8f3230dfe2\update_mappings.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Updating gamepad mappings from upstream repository</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-cd C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\external\glfw\src
+cd C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\libs\raylib\src\external\glfw\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/src/external/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/menno/OneDrive/Documenten/GitHub/Raylib_menno/libs/raylib/src/external/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -121,16 +121,16 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Updating gamepad mappings from upstream repository</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
-cd C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\external\glfw\src
+cd C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\libs\raylib\src\external\glfw\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/src/external/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/menno/OneDrive/Documenten/GitHub/Raylib_menno/libs/raylib/src/external/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -139,16 +139,16 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Updating gamepad mappings from upstream repository</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
-cd C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\external\glfw\src
+cd C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\libs\raylib\src\external\glfw\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/src/external/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/menno/OneDrive/Documenten/GitHub/Raylib_menno/libs/raylib/src/external/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -157,16 +157,16 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Updating gamepad mappings from upstream repository</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
-cd C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\external\glfw\src
+cd C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\libs\raylib\src\external\glfw\src
 if %errorlevel% neq 0 goto :cmEnd
 C:
 if %errorlevel% neq 0 goto :cmEnd
-"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/src/external/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/menno/OneDrive/Documenten/GitHub/Raylib_menno/libs/raylib/src/external/glfw/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -175,17 +175,17 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\CMakeFiles\update_mappings</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\external\glfw\src\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\libs\raylib\src\external\glfw\src\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/src/external/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/Users/menno/OneDrive/Documenten/GitHub/Raylib_menno/libs/raylib/src/external/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/menno/Documents/GitHub/Raylib_menno -BC:/Users/menno/Documents/GitHub/Raylib_menno/build --check-stamp-file C:/Users/menno/Documents/GitHub/Raylib_menno/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/menno/OneDrive/Documenten/GitHub/Raylib_menno -BC:/Users/menno/OneDrive/Documenten/GitHub/Raylib_menno/build --check-stamp-file C:/Users/menno/OneDrive/Documenten/GitHub/Raylib_menno/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -193,12 +193,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\libs\raylib\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/src/external/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/Users/menno/OneDrive/Documenten/GitHub/Raylib_menno/libs/raylib/src/external/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/menno/Documents/GitHub/Raylib_menno -BC:/Users/menno/Documents/GitHub/Raylib_menno/build --check-stamp-file C:/Users/menno/Documents/GitHub/Raylib_menno/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/menno/OneDrive/Documenten/GitHub/Raylib_menno -BC:/Users/menno/OneDrive/Documenten/GitHub/Raylib_menno/build --check-stamp-file C:/Users/menno/OneDrive/Documenten/GitHub/Raylib_menno/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -206,12 +206,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\libs\raylib\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/src/external/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/Users/menno/OneDrive/Documenten/GitHub/Raylib_menno/libs/raylib/src/external/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/menno/Documents/GitHub/Raylib_menno -BC:/Users/menno/Documents/GitHub/Raylib_menno/build --check-stamp-file C:/Users/menno/Documents/GitHub/Raylib_menno/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/menno/OneDrive/Documenten/GitHub/Raylib_menno -BC:/Users/menno/OneDrive/Documenten/GitHub/Raylib_menno/build --check-stamp-file C:/Users/menno/OneDrive/Documenten/GitHub/Raylib_menno/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -219,12 +219,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\libs\raylib\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/src/external/glfw/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/Users/menno/OneDrive/Documenten/GitHub/Raylib_menno/libs/raylib/src/external/glfw/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/menno/Documents/GitHub/Raylib_menno -BC:/Users/menno/Documents/GitHub/Raylib_menno/build --check-stamp-file C:/Users/menno/Documents/GitHub/Raylib_menno/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/menno/OneDrive/Documenten/GitHub/Raylib_menno -BC:/Users/menno/OneDrive/Documenten/GitHub/Raylib_menno/build --check-stamp-file C:/Users/menno/OneDrive/Documenten/GitHub/Raylib_menno/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -232,22 +232,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\libs\raylib\src\external\glfw\CMake\glfw3.pc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\external\glfw\src\mappings.h.in">
+    <None Include="C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\libs\raylib\src\external\glfw\src\mappings.h.in">
     </None>
-    <None Include="C:\Users\menno\Documents\GitHub\Raylib_menno\libs\raylib\src\external\glfw\CMake\GenerateMappings.cmake">
+    <None Include="C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\libs\raylib\src\external\glfw\CMake\GenerateMappings.cmake">
     </None>
-    <None Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\CMakeFiles\update_mappings">
+    <None Include="C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\build\libs\raylib\raylib\external\glfw\src\CMakeFiles\update_mappings">
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\ZERO_CHECK.vcxproj">
-      <Project>{A88A7F20-02BA-3AD2-8556-F910CB8FB8E7}</Project>
+    <ProjectReference Include="C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\build\ZERO_CHECK.vcxproj">
+      <Project>{A4EED88F-EF85-394C-9D8E-A14ED49A979F}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

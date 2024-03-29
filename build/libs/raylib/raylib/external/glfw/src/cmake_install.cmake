@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib/src/external/glfw/src
+# Install script for directory: C:/Users/menno/OneDrive/Documenten/GitHub/Raylib_menno/libs/raylib/src/external/glfw/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

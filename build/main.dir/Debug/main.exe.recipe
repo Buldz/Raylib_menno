@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\menno\Documents\GitHub\Raylib_menno\build\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\build\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>C:\Users\menno\Documents\GitHub\Raylib_menno\build\Debug\main.exe</FullPath>
+      <FullPath>C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\build\Debug\main.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

@@ -7,7 +7,7 @@
 Enemy::Enemy() : Entity()
 {
     size = {50, 25};
-    _enemySpeed = 3.0f;  
+    _speed = 3.0f;  
     _alive = true;
 
     //Resets seed
@@ -26,7 +26,7 @@ void Enemy::update(float deltatime)
 {
     DrawRectangle((int)position.x, (int)position.y, (int)size.x, (int)size.y, RED);
     Move();
-    EnemyBorder();
+    BorderDelete();
 }
 
 void Enemy::Move()
@@ -34,11 +34,11 @@ void Enemy::Move()
     //Enemy goes left or right
     if (_goesLeft == true) 
     {
-        this->position.x -= _enemySpeed;
+        this->position.x -= _speed;
     } 
     else 
     {
-        this->position.x += _enemySpeed;
+        this->position.x += _speed;
     }
 }
 
@@ -65,7 +65,7 @@ void Enemy::RandomSpawn()
     }
 }
 
-void Enemy::EnemyBorder()
+void Enemy::BorderDelete()
 {
     if (this->position.x >= Config::SWIDTH + 50){_alive = false;}
     if (this->position.x <= 0 - this->size.x - 50){_alive = false;} 

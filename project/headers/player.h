@@ -25,13 +25,13 @@ public:
 private:
     //Methods
     void Move();
-    void IsPlayerDead();
-    void PlayerBorder();
+    void IsAlive();
+    void Clamp();
 
     //Variables
     float _deltaTime;
-    int _playerSpeed;
+    int _speed;
     bool _alive;
-    Texture2D _playerTexture;
+    Texture2D _texture;
 };
 #endif /* PLAYER_H */

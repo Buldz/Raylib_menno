@@ -4,10 +4,12 @@
 #ifndef CONFIG_H
 #define CONFIG_H
 
-#define screen_width 1920
-#define screen_height 1080
-#define fullscreen 1
+#define screen_width 800
+#define screen_height 800
+#define fullscreen 0
 #define vsync 0
+#define targetFPS 1
+#define maxFPS 60
 #define msaa 0
 
 class Config
@@ -29,8 +31,11 @@ void Config::configure()
 // vsync
 #if vsync
     SetWindowState(FLAG_VSYNC_HINT);
-#else
-    SetTargetFPS(60);
+#endif
+
+// Target FPS
+#if targetFPS
+    SetTargetFPS(maxFPS);
 #endif
 
 // msaa anti aliasing

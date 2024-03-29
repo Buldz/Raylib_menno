@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/menno/Documents/GitHub/Raylib_menno/libs/raylib
+# Install script for directory: C:/Users/menno/OneDrive/Documenten/GitHub/Raylib_menno/libs/raylib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/menno/Documents/GitHub/Raylib_menno/build/libs/raylib/raylib/cmake_install.cmake")
+  include("C:/Users/menno/OneDrive/Documenten/GitHub/Raylib_menno/build/libs/raylib/raylib/cmake_install.cmake")
 
 endif()
 

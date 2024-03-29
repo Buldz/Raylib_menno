@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\menno\Documents\GitHub\Raylib_menno\build\CMakeFiles\bf7b04b4d4572fd942701769ca145983\PACKAGE_force.rule">
+    <CustomBuild Include="C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\build\CMakeFiles\310f83a23e84496a56c4ad8f3230dfe2\PACKAGE_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{DFBA4C21-F8D9-3E21-9B4E-185A91A51AE3}</UniqueIdentifier>
+      <UniqueIdentifier>{D9990CCF-2EC3-3458-82E1-25D2CF347844}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

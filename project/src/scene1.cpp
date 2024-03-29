@@ -8,7 +8,7 @@ Scene1::Scene1() : Scene()
     // Camera Settings
     camera.offset = Vector2{0, Config::SHEIGHT / 2.0f};
     camera.rotation = 0.0f;
-    camera.zoom = 0.50f;
+    camera.zoom = 1.00f;
 
     // SpawnManager
     _spawnRate = 0.5;
@@ -86,7 +86,7 @@ void Scene1::DeleteEnemy()
 {
     for (int j = enemys.size() - 1; j >= 0; j--)
 	{
-		if (!enemys[j]->EnemyIsAlive())
+		if (!enemys[j]->IsAlive())
 		{
 			delete enemys[j];				  // delete from the heap first
 			enemys.erase(enemys.begin() + j); // then, remove from the list
