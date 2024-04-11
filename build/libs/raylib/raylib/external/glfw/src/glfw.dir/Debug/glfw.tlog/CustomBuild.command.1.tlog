@@ -1,6 +1,6 @@
-^C:\USERS\MENNO\ONEDRIVE\DOCUMENTEN\GITHUB\RAYLIB_MENNO\LIBS\RAYLIB\SRC\EXTERNAL\GLFW\SRC\CMAKELISTS.TXT
+^C:\USERS\MENNO\DOCUMENTS\GITHUB\RAYLIB_MENNO\LIBS\RAYLIB\SRC\EXTERNAL\GLFW\SRC\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/menno/OneDrive/Documenten/GitHub/Raylib_menno -BC:/Users/menno/OneDrive/Documenten/GitHub/Raylib_menno/build --check-stamp-file C:/Users/menno/OneDrive/Documenten/GitHub/Raylib_menno/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/menno/Documents/GitHub/Raylib_menno -BC:/Users/menno/Documents/GitHub/Raylib_menno/build --check-stamp-file C:/Users/menno/Documents/GitHub/Raylib_menno/build/libs/raylib/raylib/external/glfw/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

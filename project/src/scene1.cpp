@@ -8,11 +8,7 @@ Scene1::Scene1() : Scene()
     // Camera Settings
     camera.offset = Vector2{0, Config::SHEIGHT / 2.0f};
     camera.rotation = 0.0f;
-<<<<<<< Updated upstream
-    camera.zoom = 1.00f;
-=======
     camera.zoom = 1.0f;
->>>>>>> Stashed changes
 
     // SpawnManager
     _spawnRate = 0.5;

@@ -7,13 +7,8 @@ Player::Player() : Entity()
 {
     _texture = LoadTexture("../assets/playerSprite.png");
     position = {Config::SWIDTH/2, Config::SHEIGHT/2};
-<<<<<<< Updated upstream
-    size = {50, 50};
-    _speed = (int)this->size.y;
-=======
-    scale = {50, 50, 0};
-    _playerSpeed = (int)this->scale.x;
->>>>>>> Stashed changes
+    scale = {50, 50};
+    _speed = (int)this->scale.y;
 
     playerIsAlive = true;
 }
@@ -25,14 +20,9 @@ Player::~Player()
 
 void Player::update(float _deltatime)
 {
-<<<<<<< Updated upstream
     //DrawTextureEx(_texture, Vector2{this->position.x, this->position.y}, 0, 8, WHITE);
     //DrawTexture(_texture, this->position.x, this->position.y, WHITE);
-    DrawRectangle((int)position.x, (int)position.y, (int)size.x, (int)size.y, BLUE);
-=======
-    //DrawTexturePro(_playerTexture, Vector2{this->position.x, this->position.y}, 0, 8, WHITE);
     DrawRectangle((int)position.x, (int)position.y, (int)scale.x, (int)scale.y, BLUE);
->>>>>>> Stashed changes
     Move();
     IsAlive();
     Clamp();

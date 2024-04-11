@@ -6,13 +6,8 @@
 
 Enemy::Enemy() : Entity()
 {
-<<<<<<< Updated upstream
-    size = {50, 25};
+    scale = {50, 25};
     _speed = 3.0f;  
-=======
-    scale = {50, 25, 0};
-    _enemySpeed = 3.0f;  
->>>>>>> Stashed changes
     _alive = true;
 
     //Resets seed

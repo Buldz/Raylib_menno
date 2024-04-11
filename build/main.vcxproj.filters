@@ -1,37 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\framework\src\core.cpp">
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\framework\src\core.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\framework\src\entity.cpp">
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\framework\src\entity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\framework\src\main.cpp">
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\framework\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\framework\src\scene.cpp">
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\framework\src\scene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\framework\src\timer.cpp">
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\framework\src\timer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\project\src\enemy.cpp">
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\project\src\enemy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\project\src\player.cpp">
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\project\src\player.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\project\src\scene1.cpp">
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\project\src\scene1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\menno\OneDrive\Documenten\GitHub\Raylib_menno\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\menno\Documents\GitHub\Raylib_menno\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{6C81D7D4-F277-3259-A7AE-A80E1A043F26}</UniqueIdentifier>
+      <UniqueIdentifier>{B63669DD-4DDD-3DD2-9891-52798335A773}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
