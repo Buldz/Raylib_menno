@@ -1,6 +1,6 @@
 #include "timer.h"
 
-Timer::Timer() {
+Timer::Timer() : Entity() {
   _startTime = 0;
   _pausedTicks = 0;
   _paused = false;

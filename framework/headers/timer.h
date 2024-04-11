@@ -3,10 +3,12 @@
 
 #include "assert.h"
 #include "raylib.h"
+#include "entity.h"
 
 /// @class Timer
 /// @brief A class for measuring time intervals.
-class Timer {
+class Timer : public Entity
+{
 public:
   /// @brief Default constructor.
   Timer();

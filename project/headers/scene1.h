@@ -25,6 +25,7 @@ public:
 private:
 	//Pointers
 	Player* player;
+	Enemy *enemy;
 
 	//Variables
 	float _deltaTime;

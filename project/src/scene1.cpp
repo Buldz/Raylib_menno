@@ -8,25 +8,32 @@ Scene1::Scene1() : Scene()
     // Camera Settings
     camera.offset = Vector2{0, Config::SHEIGHT / 2.0f};
     camera.rotation = 0.0f;
+<<<<<<< Updated upstream
     camera.zoom = 1.00f;
+=======
+    camera.zoom = 1.0f;
+>>>>>>> Stashed changes
 
     // SpawnManager
     _spawnRate = 0.5;
 
     // New Player
     player = new Player();
-
+    addChild(player);
+    
     //Starts timer
     timer->start();
 }
 
 Scene1::~Scene1()
 {
+    removeChild(player);
     delete player;
 
     //Deletes all enemys in list
     for (int j = enemys.size() - 1; j >= 0; j--)
 	{
+        removeChild(enemys[j]);
 		delete enemys[j];				  // delete from the heap first
 		enemys.erase(enemys.begin() + j); // then, remove from the list
 	}
@@ -46,6 +53,7 @@ void Scene1::update(float deltatime)
     // Draws Player
     player->update(_deltaTime);
 
+
     // Updates Camera target to player location
     camera.target = Vector2{0.0f, player->position.y};
     
@@ -60,7 +68,7 @@ void Scene1::update(float deltatime)
         enemy->update(_deltaTime);    
 
        // Check if player is colliding with enemys
-        if (CheckCollisionRecs({player->position.x, player->position.y, player->size.x, player->size.y}, {enemy->position.x, enemy->position.y, enemy->size.x, enemy->size.y}))
+        if (CheckCollisionRecs({player->position.x, player->position.y, player->scale.x, player->scale.y}, {enemy->position.x, enemy->position.y, enemy->scale.x, enemy->scale.y}))
         {
             player->playerIsAlive = false;
             player = nullptr;
@@ -72,12 +80,13 @@ void Scene1::update(float deltatime)
 
 void Scene1::SpawnManager()
 {
+    //enemy spawn
 	if (timer->getSeconds() >= _spawnRate)
 	{
 		timer->restart();
 
-		Enemy *enemy;
 		enemy = new Enemy();
+        addChild(enemy);
 		enemys.push_back(enemy);
 	}
 }
@@ -88,6 +97,7 @@ void Scene1::DeleteEnemy()
 	{
 		if (!enemys[j]->IsAlive())
 		{
+            removeChild(enemys[j]);
 			delete enemys[j];				  // delete from the heap first
 			enemys.erase(enemys.begin() + j); // then, remove from the list
 		}

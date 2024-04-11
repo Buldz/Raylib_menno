@@ -9,10 +9,12 @@ Scene::Scene() : Entity()
     Config::configure();
 
     timer = new Timer();
+    addChild(timer);
 }
 
 Scene::~Scene()
 {
+    removeChild(timer);
     CloseWindow();
 }
 
