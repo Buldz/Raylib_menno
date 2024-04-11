@@ -10,7 +10,7 @@ Player::Player() : Entity()
     scale = {50, 50};
     _speed = (int)this->scale.y;
 
-    playerIsAlive = true;
+    isAlive = true;
 }
 
 Player::~Player()
@@ -50,7 +50,7 @@ void Player::Move()
 
 void Player::IsAlive()
 {
-    if (playerIsAlive == false)
+    if (isAlive == false)
     {
         delete this;
     }

@@ -31,8 +31,7 @@ public:
 	Timer* timer;
 
 private:
-	// Variables
-	float _deltaTime;
+			
 };
 
 #endif /* SCENE_H */

@@ -1,5 +1,3 @@
-// scene1.h
-
 #include "scene.h"
 #include "player.h"
 #include "enemy.h"
@@ -28,7 +26,6 @@ private:
 	Enemy *enemy;
 
 	//Variables
-	float _deltaTime;
 	double _spawnRate;
 
 	//Methods
@@ -36,4 +33,4 @@ private:
 	void DeleteEnemy();
 };
 
-#endif /* SCENE1_H */
+#endif /* SCENE2_H */

@@ -30,7 +30,6 @@ private:
     void BorderDelete();
 
     //Variables
-    float _deltaTime;
     float _speed;
     bool _goesLeft;
     bool _alive;

@@ -4,7 +4,6 @@
 
 Scene1::Scene1() : Scene()
 {
-
     // Camera Settings
     camera.offset = Vector2{0, Config::SHEIGHT / 2.0f};
     camera.rotation = 0.0f;
@@ -42,13 +41,11 @@ void Scene1::update(float deltatime)
         return;
     }
 
-
     SpawnManager();
     DeleteEnemy();
 
     // Draws Player
-    player->update(_deltaTime);
-
+    player->update(deltaTime);
 
     // Updates Camera target to player location
     camera.target = Vector2{0.0f, player->position.y};
@@ -61,12 +58,12 @@ void Scene1::update(float deltatime)
         }
 
         // Draws enemy || Updates enemy
-        enemy->update(_deltaTime);    
+        enemy->update(deltaTime);    
 
        // Check if player is colliding with enemys
         if (CheckCollisionRecs({player->position.x, player->position.y, player->scale.x, player->scale.y}, {enemy->position.x, enemy->position.y, enemy->scale.x, enemy->scale.y}))
         {
-            player->playerIsAlive = false;
+            player->isAlive = false;
             player = nullptr;
 
             std::cout << "Player dead" << std::endl;

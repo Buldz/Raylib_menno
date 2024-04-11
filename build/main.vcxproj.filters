@@ -25,6 +25,9 @@
     <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\project\src\scene1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\project\src\scene2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\menno\Documents\GitHub\Raylib_menno\CMakeLists.txt" />

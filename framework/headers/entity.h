@@ -20,6 +20,7 @@ public:
 	//Variables
 	Vector3 position;
 	Vector3 scale;
+	float deltaTime;
 
 	//Methods
 	/// @brief add an Entity as a child of this Entity.
@@ -40,9 +41,6 @@ public:
 	int GetUid(){ return _guid; };
 
 private:
-	//Variables
-	float _deltaTime;
-
 	//Identity
 	int _guid; ///< @brief The _guid of this Entity
 	static int _nextGuid; ///< @brief The _nextGuid of this Entity

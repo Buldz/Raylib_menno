@@ -20,7 +20,7 @@ public:
     virtual void update(float deltaTime);
 
     //Variables
-    bool playerIsAlive;
+    bool isAlive;
 
 private:
     //Methods
@@ -29,7 +29,6 @@ private:
     void Clamp();
 
     //Variables
-    float _deltaTime;
     int _speed;
     bool _alive;
     Texture2D _texture;
