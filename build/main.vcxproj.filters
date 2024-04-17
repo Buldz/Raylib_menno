@@ -13,6 +13,9 @@
     <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\framework\src\scene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\framework\src\scene_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\framework\src\timer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

@@ -23,7 +23,7 @@ public:
 private:
 	//Pointers
 	Player* player;
-	Enemy *enemy;
+	Enemy* enemy;
 
 	//Variables
 	double _spawnRate;

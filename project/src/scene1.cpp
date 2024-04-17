@@ -66,7 +66,7 @@ void Scene1::update(float deltatime)
             player->isAlive = false;
             player = nullptr;
 
-            std::cout << "Player dead" << std::endl;
+           // std::cout << "Player dead" << std::endl;
         }
     }
 }

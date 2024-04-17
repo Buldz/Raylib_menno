@@ -5,9 +5,9 @@
 
 Player::Player() : Entity()
 {
-    _texture = LoadTexture("../assets/playerSprite.png");
+    _texture = LoadTexture("../../assets/playerSprite.png");
     position = {Config::SWIDTH/2, Config::SHEIGHT/2};
-    scale = {50, 50};
+    scale = {50.0f, 50.0f};
     _speed = (int)this->scale.y;
 
     isAlive = true;
@@ -20,12 +20,22 @@ Player::~Player()
 
 void Player::update(float _deltatime)
 {
-    //DrawTextureEx(_texture, Vector2{this->position.x, this->position.y}, 0, 8, WHITE);
+    // Rectangle source = { 0.0f, 0.0f, (float)_texture.width, (float)_texture.height };
+    // Rectangle dest = { position.x, position.y, (float)_texture.width*scale.x, (float)_texture.height*scale.y };
+    // Vector2 origin = { _texture.width/2, _texture.height/2 };
+
+    // if(IsTextureReady(_texture)){
+    //     std::cout << "BIG bombaclatt" << std::endl;
+    // }
+
+    //DrawTexturePro(_texture, source, dest, origin, 0, WHITE);
+    //DrawTextureEx(_texture, Vector2{this->position.x, this->position.y}, 0, scale.x, BLUE);
     //DrawTexture(_texture, this->position.x, this->position.y, WHITE);
     DrawRectangle((int)position.x, (int)position.y, (int)scale.x, (int)scale.y, BLUE);
-    Move();
-    IsAlive();
-    Clamp();
+
+    Move(); //Moves player based on controls
+    IsAlive(); //Cehecks if player is alive. If it is delete player
+    Clamp();    //Player can't go further than screen
 }
 
 void Player::Move()

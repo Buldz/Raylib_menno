@@ -16,5 +16,5 @@ Scene2::~Scene2()
 
 void Scene2::update(float deltatime)
 {
-    DrawText("HELLPORTAL AAAAHHHHHHHHH", Config::SWIDTH / 2.0f, Config::SHEIGHT / 2.0F, 40, RED);
+    DrawText("Scene 2", Config::SWIDTH / 2.0f, Config::SHEIGHT / 2.0F, 40, WHITE);
 }

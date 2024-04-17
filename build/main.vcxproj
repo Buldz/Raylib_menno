@@ -321,6 +321,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\framework\src\entity.cpp" />
     <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\framework\src\main.cpp" />
     <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\framework\src\scene.cpp" />
+    <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\framework\src\scene_manager.cpp" />
     <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\framework\src\timer.cpp" />
     <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\project\src\enemy.cpp" />
     <ClCompile Include="C:\Users\menno\Documents\GitHub\Raylib_menno\project\src\player.cpp" />

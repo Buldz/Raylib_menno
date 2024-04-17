@@ -1,34 +1,34 @@
 #include "core.h"
 #include "scene.h"
-#include "scene1.h"
-#include "scene2.h"
+#include "scene_manager.h"
 
-typedef enum Screen {SCENE1, SCENE2} Screen;
-Screen currentScreen = SCENE1;
+typedef enum Screen{MAINMENU, GAME} Screen;
+Screen currentScreen;
 
 int main()
 {
-    Core* core = new Core();
-    Scene1* scene1 = new Scene1();
-    Scene2* scene2 = new Scene2();
+    Core *core = new Core();
+    SceneManager *sceneManager = new SceneManager();
+
+    //currentScreen = sceneManager->scenes["MainMenu"];
 
     while (!WindowShouldClose())
-    {  
+    {
         switch (currentScreen)
         {
-        case SCENE1:
-            core->Run(scene1);
+        case MAINMENU:
+            core->Run(sceneManager->scenes["MAINMENU"]);
             if (IsKeyPressed(KEY_RIGHT_BRACKET))
             {
-                currentScreen = SCENE2;
+                currentScreen = GAME; 
             }
             break;
-        
-        case SCENE2:
-            core->Run(scene2);
+
+        case GAME:
+            core->Run(sceneManager->scenes["GAME"]);
             if (IsKeyPressed(KEY_LEFT_BRACKET))
             {
-                currentScreen = SCENE1;
+                currentScreen = MAINMENU;
             }
             break;
 
@@ -36,10 +36,9 @@ int main()
             break;
         }
     }
-    
-    delete scene1;
-    delete scene2;
+
     delete core;
-    
+    delete sceneManager;
+
     return 0;
 }
