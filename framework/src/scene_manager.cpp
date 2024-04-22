@@ -18,3 +18,8 @@ void SceneManager::update(float _deltatime)
 {
     
 }
+
+Scene* SceneManager::GetScene(std::string sceneName)
+{
+    return scenes[sceneName];
+}

@@ -20,12 +20,11 @@ public:
 	virtual void update(float deltaTime);
 
 	//Methods
-	std::unordered_map<std::string, Scene*> scenes;
-
-	//Pointers
-
+	Scene* GetScene(std::string sceneName);
 
 private:
+	//unordered_map
+	std::unordered_map<std::string, Scene*> scenes;
 			
 };
 

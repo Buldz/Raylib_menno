@@ -10,14 +10,12 @@ int main()
     Core *core = new Core();
     SceneManager *sceneManager = new SceneManager();
 
-    //currentScreen = sceneManager->scenes["MainMenu"];
-
     while (!WindowShouldClose())
     {
         switch (currentScreen)
         {
         case MAINMENU:
-            core->Run(sceneManager->scenes["MAINMENU"]);
+            core->Run(sceneManager->GetScene("MAINMENU"));
             if (IsKeyPressed(KEY_RIGHT_BRACKET))
             {
                 currentScreen = GAME; 
@@ -25,7 +23,7 @@ int main()
             break;
 
         case GAME:
-            core->Run(sceneManager->scenes["GAME"]);
+            core->Run(sceneManager->GetScene("GAME"));
             if (IsKeyPressed(KEY_LEFT_BRACKET))
             {
                 currentScreen = MAINMENU;
